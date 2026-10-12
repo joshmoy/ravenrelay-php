@@ -1,0 +1,11 @@
+{
+  "name": "ravenrelay/php",
+  "description": "Server-side PHP SDK for the RavenRelay email API",
+  "type": "library",
+  "license": "proprietary",
+  "keywords": ["email", "transactional-email", "sdk", "webhooks"],
+  "support": { "source": "https://github.com/joshmoy/ravenrelay-php", "issues": "https://github.com/joshmoy/ravenrelay-php/issues" },
+  "require": { "php": ">=8.1", "ext-curl": "*", "ext-json": "*" },
+  "autoload": { "classmap": ["src/"] },
+  "archive": { "exclude": ["/tests"] }
+}
