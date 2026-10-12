@@ -1,12 +1,12 @@
 # RavenRelay PHP SDK
 
-PHP 8.1+ with cURL and JSON extensions. The package name is `ravenrelay/php`. After it is registered on Packagist, install with:
+PHP 8.1+ with cURL and JSON extensions. The package name is `ravenrelay/php`. Install from Packagist with:
 
 ```sh
 composer require ravenrelay/php
 ```
 
-Load Composer's `vendor/autoload.php` before using the SDK. Until registration completes, use a Composer VCS repository pointing to `https://github.com/joshmoy/ravenrelay-php` and require `ravenrelay/php:^0.1`.
+Load Composer's `vendor/autoload.php` before using the SDK.
 
 ```php
 use RavenRelay\RavenRelay;
