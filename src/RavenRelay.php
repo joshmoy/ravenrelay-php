@@ -16,7 +16,7 @@ final class RavenRelay
 {
     public readonly Emails $emails;
     private string $baseUrl;
-    public function __construct(private string $apiKey, string $baseUrl = 'https://api.ravenrelay.com', private float $timeout = 10)
+    public function __construct(private string $apiKey, string $baseUrl = 'https://api.getravenrelay.com', private float $timeout = 10)
     {
         self::validateHeader($apiKey);
         if (preg_match('/[\\\\\x00-\x20\x7f]/', $baseUrl)) throw new \InvalidArgumentException('Invalid baseUrl');
